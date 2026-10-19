@@ -12,9 +12,6 @@ AEGYX is a research project I develop with a teammate for long-running work on c
 
 My focus is the model and Memory/ML side: memory mechanisms, Core/Worker interfaces, CUDA/native diagnostics, reproducible runtime builds and data validation.
 
-- Built **DATA17: 15.54 GB, 26,640 episodes and 181,322 segments** across four JSONL shards.
-- Prepared train/validation/test splits, provenance and license tracking, deduplication metadata, manifests and SHA-256 integrity checks.
-- Work on memory state, graph-based context and training/evaluation infrastructure for codebase tasks.
 
 ## Selected projects
 
