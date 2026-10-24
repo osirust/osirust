@@ -17,7 +17,7 @@ My focus is the model and Memory/ML side: memory mechanisms, Core/Worker interfa
 
 | Project | Focus |
 | --- | --- |
-| [AegMLAI-agent](https://github.com/osirust/AegMLAI-agent) | A team hackathon scaffold: task description and CSV profiling to an experiment plan and traceable local artifacts. Includes a mock provider and a Chat Completions adapter. |
+| [AegMLAI-agent](https://github.com/osirust/AegMLAI-agent) | Regression and classification agent for the Alfa-Budushchee 2026 hackathon. Data validation, feature engineering, ensemble experiments and Qwen API integration, evaluated with RMSE and Macro F1. [Methods and findings](https://github.com/osirust/AegMLAI-agent/blob/main/docs/RESEARCH.md). |
 | [PII Shield](https://github.com/osirust/hakaton) | A team hackathon prototype using FastAPI, NER and regular expressions to mask personal data and restore original values in streamed responses. The demo uses a simulated LLM response. |
 | [modelDepp](https://github.com/osirust/modelDepp) | Deepfake detection with PyTorch, custom MBConv blocks, image preparation, training experiments and error analysis. |
 | [Kick Driver](https://github.com/osirust/Data-2026-samsa-) | Scooter demand analysis and forecasting: feature engineering, time-based validation, model comparison and a reproducible data pipeline with output for DataLens. |
@@ -28,9 +28,10 @@ My focus is the model and Memory/ML side: memory mechanisms, Core/Worker interfa
 | --- | --- |
 | Languages | Python, SQL, Java, Go; C++ through university coursework |
 | Backend and data stores | FastAPI, HTTP/REST APIs, JSON, webhooks; PostgreSQL, MySQL, MongoDB, SQLite |
-| Machine learning and data | PyTorch, scikit-learn, NumPy, pandas, CatBoost, XGBoost, LightGBM; EDA, feature engineering, cross-validation, temporal backtesting |
+| Machine learning and data | PyTorch, scikit-learn, NumPy, pandas, SciPy, CatBoost, XGBoost, LightGBM, ExtraTrees; regression, classification, EDA and feature engineering |
+| Validation and experiments | Stratified cross-validation, temporal backtesting, leakage checks, class imbalance, ensembles, RMSE and Macro F1; AutoML experiments with FLAML |
 | Deep learning and vision | CNNs, Transformers, MBConv, embeddings, OpenCV; classification, segmentation and deepfake detection |
-| NLP and LLMs | Natasha, spaCy, DeepPavlov, NER, tokenization, PII masking; Hugging Face Transformers, Tokenizers, Safetensors, vLLM |
+| NLP and LLMs | Natasha, spaCy, DeepPavlov, NER, tokenization, PII masking; Hugging Face Transformers, Tokenizers, Safetensors, vLLM; Qwen and Chat Completions APIs |
 | ML engineering | Docker/Compose, Linux, WSL2, Git, pytest; CUDA diagnostics, BF16/FP32, LoRA, profiling, dependency locks and reproducible builds |
 | Dataset engineering | JSONL, provenance, manifests, deduplication, split validation and SHA-256 checks; Hugging Face and Google Cloud |
 
